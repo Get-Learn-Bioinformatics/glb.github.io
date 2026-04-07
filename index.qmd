@@ -30,19 +30,14 @@ about:
 ::: {#hero-heading}
 <div style="text-align: justify;">
 
-**About** [Get Learn Bioinformatics](https://www.facebook.com/getlearnbioinformatics) 
-Welcome to Get Learn Bioinformatics
-Get Learn Bioinformatics is an educational and research-focused platform dedicated to making bioinformatics, computational biology, and research learning more accessible, practical, and understandable for students, beginners, and aspiring researchers.
+**Welcome to** [Get Learn Bioinformatics](https://www.facebook.com/getlearnbioinformatics) 
 
-Our goal is to bridge the gap between theoretical knowledge and hands-on skills by providing structured learning opportunities in areas such as basic bioinformatics, research methodology, scientific literature analysis, molecular visualization, protein studies, docking, and computational approaches in life sciences.
-
-At Get Learn Bioinformatics, we believe that learning should be clear, skill-based, and research-oriented. Through training sessions, workshops, mentorship, and academic support, we aim to help learners build confidence in using modern bioinformatics tools and develop the foundation needed for higher studies, research projects, and scientific careers.
+Get Learn Bioinformatics (GLB) is an educational and research-focused platform dedicated to making bioinformatics, computational biology, and research learning more accessible, practical, and understandable for students, beginners, and aspiring researchers.
 
 We are committed to creating a learning environment where students can explore, practice, and grow in the field of bioinformatics with proper guidance and real-world application.
 
-
 **Who We Are:**
-We are a research and education-focused platform dedicated to making bioinformatics and computational biology accessible for students, beginners, and aspiring researchers.
+[We](https://get-learn-bioinformatics.github.io/glb.github.io/Founding_Member/) are a research and education-focused platform dedicated to making bioinformatics and computational biology accessible for students, beginners, and aspiring researchers.
 
 **What We Do:**
 Provide hands-on training in bioinformatics tools and molecular visualization
