@@ -341,7 +341,7 @@
     "href": "Courses/index.html",
     "title": "Courses offering from Get Learn Bioinformatics",
     "section": "",
-    "text": "Basic Research and Bioinformatics Training\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating CADD & BioPython For Biomedical Research\n\n\n\n\n\nNo matching items"
+    "text": "listing: - id: Courses max-description-length: 500 image-height: 150px fields: [image, title] contents: - course_1 - course_2 type: grid grid-item-border: false —"
   },
   {
     "objectID": "Courses/index.html#class-1",
