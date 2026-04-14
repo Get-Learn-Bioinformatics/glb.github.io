@@ -3,7 +3,7 @@ title: "Courses"
 description: |
   This page lists all workshops, talks, and sessions with details and thumbnails.
 listing:
-  - id: Basic Bioinformatics 
+  - id: bioinformatics
     max-description-length: 500
     image-height: 150px
     fields: [title, description, image, start_date]
@@ -14,7 +14,7 @@ listing:
     sort-ui: false
     filter-ui: false
 
-  - id: Computer Aided Drug Design
+  - id: scientific
     max-description-length: 500
     image-height: 150px
     fields: [title, description, image, start_date]
@@ -27,12 +27,12 @@ listing:
     filter-ui: false
 ---
 
-## Bioinformatics Talks
+## Basic Bioinformatics Course 
 
 ::: {#bioinformatics}
 :::
 
-## Scientific Sessions
+## Computer Aided Drug Design
 
 ::: {#scientific}
 :::
