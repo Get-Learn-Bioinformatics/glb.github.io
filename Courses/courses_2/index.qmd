@@ -64,7 +64,4 @@ For enrollment or more information, please contact the course page.
 
 ---
 
-© 2026 Get Learn Bioinformatics
----
-
 ![](image.jpg)

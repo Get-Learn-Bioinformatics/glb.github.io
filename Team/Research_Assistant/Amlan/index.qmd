@@ -6,6 +6,9 @@ description: |
   2nd Year Student of Biochemistry and Molecular Biology at Jagannath University.
 
 image: "image.jpg" 
+project: "Works in Anti Fungal Drug Discovery"
+starting_date: "2026-01-01"
+
 about:
   id: hero-heading
   template: trestles

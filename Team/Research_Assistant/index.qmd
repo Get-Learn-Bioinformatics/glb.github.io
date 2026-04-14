@@ -10,17 +10,18 @@ description: |
 listing:
   id: ra
   contents:
-    - ra1
-    - ra2
-    - ra3
-    - ra4
-    - ra5
-    - ra6
-    - ra7
-    - ra8
-    - ra9
-    - ra10
-  fields: [title, description, image]
+    - nilanjana
+    - wakif
+    - Shaila
+    - Nure
+    - Amlan
+    - Anupama
+    - Tasmia
+    - Miran
+    - Rubuya
+    - Sharmin
+    
+  fields: [title, description, image, project, starting_date]
   max-description-length: 500
   image-height: 150px
   type: default
