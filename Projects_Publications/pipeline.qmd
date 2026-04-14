@@ -1,37 +1,15 @@
 ---
-title: "Research Assistants"
+title: "Pipeline"
+
 description: |
-  Meet our Research Assistants contributing to diverse research projects and 
-  computational workflows. Each profile highlights expertise, skills, and 
-  research involvement.
+  This page presents the computational pipelines developed by our academy 
+  for research in computational biology and bioinformatics.
 
-  Features:
-  - Profile cards with image and details
-  - Research interest tags
-  - Project involvement
-  - GitHub / profile links
-  - Filter by expertise areas
+  The pipelines are designed to ensure reproducibility, scalability, and 
+  efficient data analysis across different research domains. Detailed 
+  documentation, workflows, and resources will be updated here.
+
+  Stay tuned for upcoming releases.
+
 format: html
-
-listing:
-  contents:
-    - ra1
-    - ra2
-    - ra3
-    - ra4
-    - ra5
-    - ra6
-    - ra7
-    - ra8
-    - ra9
-    - ra10
-  type: grid
-  image-align: left
-  image-height: 180px
-  fields: [title, description, categories, image]
-  grid-item-border: true
-  sort-ui: false
-  filter-ui: true
-  categories: true
 ---
-```

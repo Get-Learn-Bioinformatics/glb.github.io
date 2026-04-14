@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Meet our Research Assistants contributing to diverse research projects and computational workflows. Each profile highlights expertise, skills, and research involvement.Features: - Profile cards with image and details - Research interest tags - Project involvement - GitHub / profile links - Filter by expertise areas">
+<meta name="description" content="This page presents the computational pipelines developed by our academy for research in computational biology and bioinformatics.The pipelines are designed to ensure reproducibility, scalability, and efficient data analysis across different research domains. Detailed documentation, workflows, and resources will be updated here.Stay tuned for upcoming releases.">
 
-<title>Research Assistants – Get Learn Bioinformatics</title>
+<title>Pipeline – Get Learn Bioinformatics</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,8 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -74,35 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -216,21 +185,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Assistants</h1>
+<h1 class="title">Pipeline</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>Meet our Research Assistants contributing to diverse research projects and computational workflows. Each profile highlights expertise, skills, and research involvement.</p>
-    <p>Features: - Profile cards with image and details - Research interest tags - Project involvement - GitHub / profile links - Filter by expertise areas</p>
+    <p>This page presents the computational pipelines developed by our academy for research in computational biology and bioinformatics.</p>
+    <p>The pipelines are designed to ensure reproducibility, scalability, and efficient data analysis across different research domains. Detailed documentation, workflows, and resources will be updated here.</p>
+    <p>Stay tuned for upcoming releases.</p>
   </div>
 </div>
 
@@ -247,74 +217,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<pre><code>
 
 
 
-:::{#quarto-navigation-envelope .hidden}
-[Get Learn Bioinformatics]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl"}
-[Get Learn Bioinformatics]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU="}
-[Home]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6SG9tZQ=="}
-[/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw="}
-[Courses]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6Q291cnNlcw=="}
-[/Courses/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L0NvdXJzZXMvaW5kZXguaHRtbA=="}
-[Projects]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6UHJvamVjdHM="}
-[Research Project]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzZWFyY2ggUHJvamVjdA=="}
-[/Projects_Publications/research_project.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L1Byb2plY3RzX1B1YmxpY2F0aW9ucy9yZXNlYXJjaF9wcm9qZWN0Lmh0bWw="}
-[Published Work]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6UHVibGlzaGVkIFdvcms="}
-[/Projects_Publications/published_work.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L1Byb2plY3RzX1B1YmxpY2F0aW9ucy9wdWJsaXNoZWRfd29yay5odG1s"}
-[Pipeline]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6UGlwZWxpbmU="}
-[/Projects_Publications/pipeline.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L1Byb2plY3RzX1B1YmxpY2F0aW9ucy9waXBlbGluZS5odG1s"}
-[Sessions &amp; Talks]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6U2Vzc2lvbnMgJiBUYWxrcw=="}
-[/Sessions_Talks/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L1Nlc3Npb25zX1RhbGtzL2luZGV4Lmh0bWw="}
-[Blog]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6QmxvZw=="}
-[/blog/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L2Jsb2cvaW5kZXguaHRtbA=="}
-[Team]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6VGVhbQ=="}
-[Founding Members]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6Rm91bmRpbmcgTWVtYmVycw=="}
-[/Team/Founding_Member/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L1RlYW0vRm91bmRpbmdfTWVtYmVyL2luZGV4Lmh0bWw="}
-[Research Assistant]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzZWFyY2ggQXNzaXN0YW50"}
-[/Team/Research_Assistant/index.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L1RlYW0vUmVzZWFyY2hfQXNzaXN0YW50L2luZGV4Lmh0bWw="}
-[Contact]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6Q29udGFjdA=="}
-[/Contact/Contact.html]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6L0NvbnRhY3QvQ29udGFjdC5odG1s"}
-[mailto:info.getlearnbioinformatics\@gmail.com]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6bWFpbHRvOmluZm8uZ2V0bGVhcm5iaW9pbmZvcm1hdGljc0BnbWFpbC5jb20="}
-[https://facebook.com/getlearnbioinformatics]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9mYWNlYm9vay5jb20vZ2V0bGVhcm5iaW9pbmZvcm1hdGljcw=="}
-[FB Group]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6RkIgR3JvdXA="}
-[https://facebook.com/groups/934011292608963/]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9mYWNlYm9vay5jb20vZ3JvdXBzLzkzNDAxMTI5MjYwODk2My8="}
-[https://youtube.com/\@getlearn_bioinformatics]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly95b3V0dWJlLmNvbS9AZ2V0bGVhcm5fYmlvaW5mb3JtYXRpY3M="}
-[https://instagram.com/p/DVtQOwqiUXX/]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9pbnN0YWdyYW0uY29tL3AvRFZ0UU93cWlVWFgv"}
-
-:::{.hidden .quarto-markdown-envelope-contents render-id="Zm9vdGVyLWxlZnQ="}
-&amp;copy; Copyright 2026, get-learn-bioinformatics
-:::
-
-
-:::{.hidden .quarto-markdown-envelope-contents render-id="Zm9vdGVyLXJpZ2h0"}
-This page is built with ❤️ and [Quarto](https://quarto.org/).
-:::
-
-:::
-
-
-:::{#quarto-listing-pipeline .hidden}
-[$e = mC^2$]{.hidden .quarto-markdown-envelope-contents render-id="cXVhcnRvLWVuYWJsZS1tYXRoLWlubGluZQ=="}
-
-:::{.hidden .quarto-markdown-envelope-contents render-id="cGlwZWxpbmUtbGlzdGluZy1saXN0aW5n"}
-```{=html}
-&lt;div class="listing-actions-group"&gt;
-    &lt;div class="input-group input-group-sm quarto-listing-filter"&gt;
-      &lt;span class="input-group-text"&gt;&lt;i class="bi bi-search"&gt;&lt;/i&gt;&lt;/span&gt;
-      &lt;input type="text" class="search form-control" placeholder="Filter" /&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-<div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-<p>:::</p>
-<p>:::</p>
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing"></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -719,14 +625,14 @@ This page is built with ❤️ and [Quarto](https://quarto.org/).
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      <div class="footer-contents">© Copyright 2026, get-learn-bioinformatics</div>  
-    </div>   
+<p>© Copyright 2026, get-learn-bioinformatics</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-      <div class="footer-contents">This page is built with ❤️ and [Quarto](https://quarto.org/).</div>  
-    </div>
+<p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
 
